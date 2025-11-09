@@ -1,0 +1,2 @@
+# Exemple de tâche Cron pour exécuter le script toutes les 30 minutes
+*/30 * * * * export DISPLAY=:0 && /chemin/absolu/vers/votre/projet/src/website-monitor.sh

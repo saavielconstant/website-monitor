@@ -1,0 +1,30 @@
+# Website Monitor - Keywords Configuration
+# Format: keyword|description (one per line)
+# Lines starting with # are ignored
+
+# Job-related keywords
+recruitment|Job offers, employment opportunities
+hiring|Hiring announcements
+careers|Career opportunities
+job|Job postings
+
+# Education keywords
+education|Educational news, programs
+school|School announcements
+university|University updates
+course|Course offerings
+
+# Urgent announcements
+urgent|Urgent announcements, alerts
+important|Important notices
+alert|Security or important alerts
+
+# Technical keywords
+maintenance|Technical maintenance
+outage|Service outages
+update|System updates
+
+# Business keywords
+price|Price changes
+promotion|Promotions, special offers
+sale|Sales announcements

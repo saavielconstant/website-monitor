@@ -1,0 +1,21 @@
+# Fichiers de log et de rapport
+*.log
+*.html
+*.txt
+
+# Fichiers de configuration et listes (à garder privés)
+# Avertissement : Ne commitez PAS ces fichiers s'ils contiennent des infos sensibles
+# Laissez-les commentés si vous voulez fournir des *exemples*
+# url_list.txt
+# keywords.txt
+
+# Données de snapshots et cache
+snapshots/
+diagnostic/
+
+# Environnement Node.js pour Puppeteer
+puppeteer_module/node_modules/
+puppeteer_module/package-lock.json
+
+# Fichiers temporaires système
+.DS_Store

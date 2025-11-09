@@ -1,0 +1,17 @@
+# Website Monitor - URL List
+# Add one URL per line, lines starting with # are ignored
+# You can add zone configurations in snapshots/<hash>/zone_config.conf
+
+# Example URLs for testing
+https://httpbin.org/html
+https://github.com/trending
+
+# News sites
+# https://www.bbc.com/news
+# https://www.reuters.com
+
+# JavaScript sites (require Puppeteer)
+# https://react.dev
+# https://vuejs.org
+
+# Add your target websites below

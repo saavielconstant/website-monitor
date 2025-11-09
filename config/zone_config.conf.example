@@ -1,0 +1,49 @@
+# =============================================================================
+# CONFIGURATION DE SURVEILLANCE
+# =============================================================================
+# URL: https://yop.l-frii.com/offres-demplois/
+# Hash: ae77d4a5fd81c688679762ff135798a2
+# Créé le: 2025-11-03 09:07:25
+# =============================================================================
+
+# Mode de surveillance
+# Options: full, between, before, after
+ZONE_MODE="full"
+
+# Forcer l'utilisation de Puppeteer
+# Pour les sites JavaScript (React, Angular, Vue.js)
+FORCE_PUPPETEER="false"
+
+# =============================================================================
+# CONFIGURATION DES ZONES
+# =============================================================================
+
+# Pour ZONE_MODE="between" - Surveiller entre deux marqueurs:
+# ZONE_START="Début du contenu"
+# ZONE_END="Fin du contenu"
+
+# Pour ZONE_MODE="before" - Surveiller après un marqueur:
+# ZONE_START="Marqueur de début"
+
+# Pour ZONE_MODE="after" - Surveiller avant un marqueur:  
+# ZONE_END="Marqueur de fin"
+
+# =============================================================================
+# EXEMPLES
+# =============================================================================
+
+# Exemple 1: Surveiller uniquement l'article
+# ZONE_MODE="between"
+# ZONE_START="<article"
+# ZONE_END="</article>"
+
+# Exemple 2: Surveiller à partir du header
+# ZONE_MODE="before" 
+# ZONE_START="<header"
+
+# Exemple 3: Surveiller jusqu'au footer
+# ZONE_MODE="after"
+# ZONE_END="<footer"
+
+# Exemple 4: Forcer Puppeteer pour un site React
+# FORCE_PUPPETEER="true"

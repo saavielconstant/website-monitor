@@ -1,0 +1,9 @@
+[Unit]
+Description=Website Change Monitor
+
+[Service]
+Type=oneshot
+# IMPORTANT: Le chemin doit être absolu vers le script dans le dossier src
+ExecStart=/chemin/absolu/vers/votre/projet/src/website-monitor.sh
+Environment=DISPLAY=:0
+Environment=DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/%U/bus
