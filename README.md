@@ -55,16 +55,17 @@ The script is designed to run from a base directory (e.g., `$HOME/website_monito
     cd website-monitor
     ```
 
-2.  **Make the script executable:**
+2.  **Make the main script executable:**
     ```bash
-    chmod +x website-monitor.sh
+    chmod +x src/website-monitor.sh
     ```
 
-3.  **Install Dependencies:**
-    The script requires `curl`, `html2text`, and `nodejs`/`npm` (for Puppeteer).
+3.  **Run the installation script:**
+    The main script requires `curl`, `html2text`, and `nodejs`/`npm` (for Puppeteer).
     You can use the built-in installer:
     ```bash
-    ./website-monitor.sh --install-deps
+    chmod +x scripts/install.sh
+    ./scripts/install.sh
     ```
     This will install `html2text`, `nodejs`, `npm`, and all necessary dependencies for Puppeteer, and then run `npm install` for `puppeteer-extra` and the `stealth-plugin`.
 
@@ -111,7 +112,7 @@ On the first run, the script will create `url_list.txt` and `keywords.txt` for y
 Simply run the script:
 
 ```bash
-./website-monitor.sh
+.src/website-monitor.sh --monitor
 ```
 
 The script will:
