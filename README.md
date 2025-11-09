@@ -51,7 +51,7 @@ The script is designed to run from a base directory (e.g., `$HOME/website_monito
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/saavielconstant/website-monitor.git](https://github.com/saavielconstant/website-monitor.git)
+    git clone https://github.com/saavielconstant/website-monitor.git
     cd website-monitor
     ```
 
